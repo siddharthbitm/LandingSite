@@ -1,1 +1,1 @@
-{"data":{"user":{"name":"Siddharth Shanker ","bio":"{ }","avatarUrl":"https://avatars.githubusercontent.com/u/154038237?v=4","location":"BIT Mesra, Ranchi","pinnedItems":{"totalCount":0,"edges":[]}}}}
+{"data":{"user":null},"errors":[{"type":"NOT_FOUND","path":["user"],"locations":[{"line":3,"column":3}],"message":"Could not resolve to a User with the login of 'Shadyycodes'."}]}

@@ -1,5 +1,3 @@
-
-
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
 
@@ -24,7 +22,7 @@ const greeting = {
 
 
 const socialMediaLinks = {
-  github: "https://github.com/Shadyycodes",
+  github: "https://github.com/Siddharthbitm",
   linkedin: "https://www.linkedin.com/in/hiresiddharthshanker",
   gmail: "siddharth8730@gmail.com",
   medium: "https://medium.com/@siddharth8730",
@@ -117,7 +115,7 @@ const educationInfo = {
       desc: "completing my ongoing degree along with gaining the exposure and experience.",
       descBullets: [
         "Member of the club IEEE associated with the technicalities and hosting of various events and hackathons.",
-        "Holding the position of Quiz Co-ordinator in the club UNESQUO to pursue my affection for MUNs/oratory events and quizzes."
+        "Holding the position 'Head of Pulpit' in the club UNESQUO to pursue my affection for MUNs/oratory events and quizzes."
       ]
     },
     {
@@ -178,6 +176,17 @@ const workExperiences = {
   display: true, 
   experience: [
     {
+      role: "Software Developer Trainee",
+      company: "Kaptue CX",
+      companylogo: require("./assets/images/kapturelogo.jpeg"),
+      date: "June 2025 – August 2025",
+      desc: "Being a Software Developer Trainee, I was tasked with the frontend UI development of the CX platform being provided to respective clients",
+      descBullets: [
+        "Led the UI/Frontend development of Kapture-EX, an inter-organization platform being developed for Flipkart support team. ",
+        "Optimized the routing/mappings of the webpage and integrated the UI with the pre-exsisting workspace database."
+      ]
+    },
+    {
       role: "AI and Machine Learning Intern",
       company: "Wissen Infotech",
       companylogo: require("./assets/images/wissen.jpg"),
@@ -193,7 +202,7 @@ const workExperiences = {
 
 const openSource = {
   showGithubProfile: "false", //footer contact from github
-  display: true 
+  display: false
 };
 
 
@@ -208,18 +217,18 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: ""
+          url: "https://github.com/siddharthbitm/LandingSite"
         }
       ]
     },
     {
-      image: require("./assets/images/landingwebsitelogo.webp"),
-      projectName: "My NEXT BIG PROJECT",
-      projectDesc: "this section wont be empty for too long.",
+      image: require("./assets/images/Machine.png"),
+      projectName: "CustomerConversion Prediction",
+      projectDesc: "A Machine Learning project made to predict the domain of customers most likely to get converted using multiple ML models",
       footerLink: [
         {
           name: "Visit Website",
-          url: ""
+          url: "https://github.com/siddharthbitm/CustomerConversion-Prediction"
         }
       ]
     }
@@ -333,7 +342,7 @@ const blogSection = {
         "Why considering college curriculum before joining is important in today's generation "
     }
   ],
-  display: true 
+  display: false
 };
 
 // Resume Section
