@@ -176,6 +176,17 @@ const workExperiences = {
   display: true, 
   experience: [
     {
+      role: "Business Technology Solutions Associate Intern",
+      company: "ZS Associates",
+      companylogo: require("./assets/images/zslogo.jpg"),
+      date: "January 2026 – June 2026",
+      desc: "Contributed as a versatile developer across multiple pods, delivering robust user interfaces for AI products and scalable backend services for enterprise supply chain operations.",
+      descBullets: [
+        "Spearheaded the UI/Frontend development for Canary AI applications, ensuring seamless and highly interactive user experiences.",
+        "Engineered and optimized backend solutions for the Demand Planning application within the Supply Chain pod to enhance data workflows and operational efficiency."
+      ]
+    },
+    {
       role: "Software Developer Trainee",
       company: "Kaptue CX",
       companylogo: require("./assets/images/kapturelogo.jpeg"),
