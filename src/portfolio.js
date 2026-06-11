@@ -321,12 +321,11 @@ const achievementSection = {
   display: true 
 };
 
-// Blogs Section
 
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and share what's on my mind. My blogs are a chest of personal opinions and in no way directs the workinng of the system. I believe myself to be a very opinionated person and hence I started with the blogs",
+    "With Love for Developing cool stuff, I love to write and share what's on my mind. My blogs are a chest of personal opinions and in no way directs the working of the system. I believe myself to be a very opinionated person and hence I started with the blogs",
   displayMediumBlogs: "false",
   blogs: [
     {
@@ -345,7 +344,6 @@ const blogSection = {
   display: false
 };
 
-// Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
